@@ -1,0 +1,46 @@
+body {
+    background : #f8f8f8;
+}
+
+.menu {
+    background : #4B5CD7;
+    list-style-type : none;
+}
+
+.menu a {
+    color : #FFFFFF;
+    font-family : 'Arial', sans-serif;
+    text-decoration : none;
+    text-transform : uppercase;
+}
+
+.menu li {
+    display : inline;
+    margin : 30px;
+}
+
+.item h2 {
+    color : black;
+    font-size : 18px;
+    font-weight : 400;
+    background :  #eaeaea;
+}
+
+.short_desc {
+    color :  #707070;
+    font-size : 14px;
+    font-style : italic;
+    line-height : 16px;
+}
+
+.desc {
+    color : #484343;
+    font-size : 16px;
+    font-weight : 400;
+    line-height : 24px;
+    text-align : left;
+}
+
+.char {
+    list-style-image : url(../images/icon.gif);
+}

@@ -44,3 +44,92 @@ body {
 .char {
     list-style-image : url(../images/icon.gif);
 }
+
+.char li {
+    font-style: oblique;
+}
+
+.char li b{
+    color : darkmagenta;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+}
+
+footer {
+    color: darkgrey;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.input-form input {
+    color : #2419B2;
+    font-family: Andalus sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    width: 300px;
+    height: 27px;
+}
+
+.input-form textarea {
+    color: #2419B2;
+    font-family: Andalus sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    width: 600px;
+    height: 300px;
+}
+
+.frame {
+    outline: 3px solid #2419B2;
+}
+
+.frame:hover {
+    outline : none;
+}
+
+header li a:hover {
+    color : red;
+}
+
+input[class="mail"]:focus {
+    background : black;
+    color : white;
+}
+
+input, textarea {
+    text-transform : capitalize;
+}
+
+table {
+    border-collapse : collapse;
+    border : 3px solid black;
+    width : 500px;
+}
+
+td {
+    text-align : center;
+    padding-top : 25px;
+    padding-bottom : 25px;
+    border : 1px solid black;
+}
+
+.item p:first-letter {
+    color : blue;
+    font-size : 30px;
+    font-family : Verdana, sans-serif;
+    font-style : italic;
+    font-weight : bold;
+
+}
+
+table[class="table-test"] {
+    border-collapse : collapse;
+    border : 1px solid black;
+}
+
+table[class="table-test"] td {
+    border : 1px solid black;
+}
+
+

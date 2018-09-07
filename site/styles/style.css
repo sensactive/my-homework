@@ -123,13 +123,15 @@ td {
 
 }
 
-table[class="table-test"] {
+.table-test {
     border-collapse : collapse;
     border : 1px solid black;
 }
 
-table[class="table-test"] td {
+.table-test td {
     border : 1px solid black;
 }
 
-
+.cell {
+    height: 200px;
+}

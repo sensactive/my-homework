@@ -1,48 +1,48 @@
 body {
-    background : #f8f8f8;
+    background: #f8f8f8;
 }
 
 .menu {
-    background : #4B5CD7;
-    list-style-type : none;
+    background: #4B5CD7;
+    list-style-type: none;
 }
 
 .menu a {
-    color : #FFFFFF;
-    font-family : 'Arial', sans-serif;
-    text-decoration : none;
-    text-transform : uppercase;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .menu li {
-    display : inline;
-    margin : 30px;
+    display: inline;
+    margin: 30px;
 }
 
 .item h2 {
-    color : black;
-    font-size : 18px;
-    font-weight : 400;
-    background :  #eaeaea;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background:  #eaeaea;
 }
 
 .short_desc {
-    color :  #707070;
-    font-size : 14px;
-    font-style : italic;
-    line-height : 16px;
+    color:  #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
 }
 
 .desc {
-    color : #484343;
-    font-size : 16px;
-    font-weight : 400;
-    line-height : 24px;
-    text-align : left;
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 
 .char {
-    list-style-image : url(../images/icon.gif);
+    list-style-image: url(../images/icon.gif);
 }
 
 .char li {
@@ -50,7 +50,7 @@ body {
 }
 
 .char li b{
-    color : darkmagenta;
+    color: darkmagenta;
     font-family: 'Arial', sans-serif;
     font-size: 15px;
     font-style: normal;
@@ -63,8 +63,8 @@ footer {
 }
 
 .input-form input {
-    color : #2419B2;
-    font-family: Andalus sans-serif;
+    color: #2419B2;
+    font-family: Andalus, sans-serif;
     font-style: italic;
     font-size: 20px;
     width: 300px;
@@ -73,7 +73,7 @@ footer {
 
 .input-form textarea {
     color: #2419B2;
-    font-family: Andalus sans-serif;
+    font-family: Andalus, sans-serif;
     font-style: italic;
     font-size: 20px;
     width: 600px;
@@ -85,51 +85,51 @@ footer {
 }
 
 .frame:hover {
-    outline : none;
+    outline: none;
 }
 
 header li a:hover {
-    color : red;
+    color: red;
 }
 
 input[class="mail"]:focus {
-    background : black;
-    color : white;
+    background: black;
+    color: white;
 }
 
 input, textarea {
-    text-transform : capitalize;
+    text-transform: capitalize;
 }
 
 table {
-    border-collapse : collapse;
-    border : 3px solid black;
-    width : 500px;
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 500px;
 }
 
 td {
-    text-align : center;
-    padding-top : 25px;
-    padding-bottom : 25px;
-    border : 1px solid black;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid black;
 }
 
 .item p:first-letter {
-    color : blue;
-    font-size : 30px;
-    font-family : Verdana, sans-serif;
-    font-style : italic;
-    font-weight : bold;
+    color: blue;
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
 
 }
 
 .table-test {
-    border-collapse : collapse;
-    border : 1px solid black;
+    border-collapse: collapse;
+    border: 1px solid black;
 }
 
 .table-test td {
-    border : 1px solid black;
+    border: 1px solid black;
 }
 
 .cell {

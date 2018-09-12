@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    background: darkgrey;
+}
+
+.header {
+    height: 682px;
+    background: red;
+    position: relative;
+
+}
+
+.logo {
+    position: absolute;
+    left: 70px;
+    top: 24px;
+}
+
+.icons {
+    position: absolute;
+    right: 15px;
+    top: 50px;
+}
